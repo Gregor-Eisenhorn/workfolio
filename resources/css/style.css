@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Russo One'    
+}
+
+
+nav {
+    display: block;
+    background-color: #be3144; 
+    width: 100%;
+    font-size: 2rem;       
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+}
+
+nav div {
+    float: right;
+    position: relative;
+    right: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0f0f0; 
+    margin: auto 1em;   
+}
+
+.header-container {
+    position: relative;
+    top: 80px;
+    background: lightblue;
+    padding: 10em 10em;
+    font-size: 1.7em;
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
+.projects-container {
+    background: lightgreen;
+    padding: 5em;
+}
+
+.projects-container h2 {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.9em;
+    text-decoration-line: underline;
+}
+
+
+
+
