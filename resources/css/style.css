@@ -81,11 +81,13 @@ h3 {
     text-align: center;
     color: white;
     font-weight: 300;
+    font-size: 1.4rem;
+    padding: 1em 0;
 }
 
 .tiles-container {
     
-    
+    margin: 20px 0;
     
 }
 
