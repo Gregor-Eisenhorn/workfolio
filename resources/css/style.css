@@ -156,28 +156,7 @@ footer {
     
 }
 
-@media only screen and (max-width: 700px) {
-    .project {
-        width: 100%;
-        float: none;
-        
-    }
 
-    .footer {
-        text-align: left;
-    }
-    
-    .icon {
-        display: block;
-        text-align: left;
-    }
-
-    .icons {
-        position: relative;
-        left: 30%;
-    }
-
-}
 
 .up {
     
@@ -192,10 +171,38 @@ footer {
     height: 70px;
 }
 
+
+@media only screen and (max-width: 700px) {
+ 
+  
+
+    .footer {
+        text-align: left;
+    }
+    
+    .icon {
+        display: block;
+        text-align: left;
+    }
+
+    .icons {
+        position: relative;
+        left: 30%;
+    }
+    
+    .up {
+        display: none;
+    }
+   
+
+}
+
 @media only screen and (max-width: 330px) {
     .logo{
         display: none;
     }
+
+    
 }
 
 
