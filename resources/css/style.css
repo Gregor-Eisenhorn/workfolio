@@ -85,10 +85,11 @@ h2 {
 }
 
 .project {
-    display: inline-block;
-    width: 30%;
+
     background: #252c06;
     overflow: hidden;
+    max-width: 350px;
+    margin: 20px 20px;
     
     
 }
@@ -109,8 +110,10 @@ h3 {
 }
 
 .tiles-container {
-    
-    margin: 20px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
