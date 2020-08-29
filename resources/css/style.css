@@ -11,6 +11,7 @@
 body {
     font-family: 'Russo One';   
     background: ##aca591;
+    position: relative;
 }
 
 
@@ -56,7 +57,7 @@ nav a {
 .contact {
     
     
-    padding: 290px 0;
+    padding: 300px 0;
     font-size: 1.7em;
     text-align: center;
     background: #0b0a35;
