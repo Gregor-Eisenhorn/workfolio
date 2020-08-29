@@ -114,6 +114,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -140,7 +141,7 @@ h3 {
 }
 
 footer {
-    padding: 1em 0;
+    padding: 1em 10px;
     font-size: 1.3em;
     text-align: right;
     background: #12122e;
