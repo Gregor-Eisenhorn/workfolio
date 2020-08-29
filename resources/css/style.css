@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 /* index styles */
 
 * {
@@ -9,18 +8,14 @@
 }
 
 body {
-    font-family: 'Russo One';   
+    font-family: 'Russo One';
     background: #aca591;
-   
 }
 
-
 nav {
-    
-    background-color: #be3144; 
+    background-color: #be3144;
     width: 100%;
-    
-    font-size: 2rem;       
+    font-size: 2rem;
     padding: 1rem;
     position: absolute;
     top: 0;
@@ -36,49 +31,36 @@ nav {
     height: 69px;
 }
 
-
 nav a {
     text-decoration: none;
-    color: #f0f0f0; 
-    margin: auto 1em;   
+    color: #f0f0f0;
+    margin: auto 1em;
 }
 
-
-
 .header-container {
-    
     background: seashell;
     padding: 15em 0;
     font-size: 1.7em;
     text-align: center;
-    
 }
 
 .contact {
-    
-    
     padding: 300px 0;
     font-size: 1.7em;
     text-align: center;
     background: #0b0a35;
     color: white;
     position: relative;
-    
-    
 }
 
-
 .projects-container {
-    
     padding: 5em 0;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    
 }
 
 h2 {
-    
     text-align: center;
     font-size: 1.9em;
     text-decoration-line: underline;
@@ -86,23 +68,17 @@ h2 {
 
 .projects {
     margin: 5px 0;
-    
 }
 
 .project {
-
     background: #252c06;
     overflow: hidden;
     max-width: 350px;
     margin: 20px 20px;
-    
-    
 }
 
 .project img {
-   width: 100%;
-   
-    
+    width: 100%;
 }
 
 h3 {
@@ -120,7 +96,6 @@ h3 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 .icon {
@@ -138,7 +113,6 @@ h3 {
 
 .icon a {
     text-decoration: none;
-    
 }
 
 .contact h2 {
@@ -153,58 +127,39 @@ footer {
     color: white;
     position: relative;
     top: 8px;
-    
 }
 
-
-
 .up {
-    
     display: inline-block;
     position: absolute;
     top: 20px;
     left: 20px;
-   
 }
 
 .up img {
     height: 70px;
 }
 
-
 @media only screen and (max-width: 700px) {
- 
-  
-
+   
     .footer {
         text-align: left;
     }
-    
     .icon {
         display: block;
         text-align: left;
     }
-
     .icons {
         position: relative;
         left: 30%;
     }
-    
     .up {
         display: none;
     }
-   
-
 }
 
 @media only screen and (max-width: 330px) {
-    .logo{
+    .logo {
         display: none;
     }
-
-    
 }
-
-
-
-
