@@ -42,10 +42,12 @@ nav a {
     margin: auto 1em;   
 }
 
+
+
 .header-container {
     
     background: seashell;
-    padding: 10em 0;
+    padding: 15em 0;
     font-size: 1.7em;
     text-align: center;
     
@@ -54,11 +56,12 @@ nav a {
 .contact {
     
     
-    padding: 250px 0;
+    padding: 290px 0;
     font-size: 1.7em;
     text-align: center;
     background: #0b0a35;
     color: white;
+    position: relative;
     
     
 }
@@ -69,6 +72,7 @@ nav a {
     padding: 5em 0;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
     
 }
 
@@ -172,6 +176,19 @@ footer {
         left: 30%;
     }
 
+}
+
+.up {
+    
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+   
+}
+
+.up img {
+    height: 70px;
 }
 
 @media only screen and (max-width: 330px) {
