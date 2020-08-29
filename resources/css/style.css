@@ -25,9 +25,16 @@ nav {
     top: 0;
 }
 
-nav div {
-    float: right;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.logo img {
+    height: 69px;
+}
+
 
 nav a {
     text-decoration: none;
