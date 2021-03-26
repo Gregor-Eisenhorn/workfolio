@@ -10,7 +10,9 @@ import babel from 'gulp-babel';
 
 //other npm modules
 import browserSync from 'browser-sync';
+import del from 'del';
   
+
 
 
 
